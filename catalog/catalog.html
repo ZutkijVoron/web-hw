@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../style/style.catalog.css">
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/style.catalog.css" />
     <title>Catalog</title>
   </head>
   <body>
-    <header>
-      <ul>
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">Контакты</a></li>
+    <header class="body__header">
+      <ul class="nav__list">
+        <li><a class="nav__list__link" href="../index.html">Главная</a></li>
+        <li><a class="nav__list__link" href="#">Каталог</a></li>
+        <li><a class="nav__list__link" href="#">Контакты</a></li>
       </ul>
     </header>
     <main>
-      <h1>Каталог</h1>
-      <p>
+      <h1 class="main__title">Каталог</h1>
+      <p class="main__text text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nisi
         illo expedita autem tempore, architecto, voluptatibus minima voluptate
         deleniti praesentium animi, eos reiciendis nesciunt. Assumenda excepturi
@@ -39,13 +40,13 @@
       <section>
         <article>
           <figure>
-            <img
+            <img class="card__img"
               src="../img/perfectly-organized-bakery-products.jpg"
               alt="хлебушек"
             />
-            <figcaption>Самый сочный хлеб</figcaption>
+            <figcaption class="card__title">Самый сочный хлеб</figcaption>
           </figure>
-          <p>
+          <p class="card__text text">
             Данный хлеб был изготовлен в соответствии со всеми мировыми
             стандартами. Для того чтобы его изготовить сотни людей работают на
             полях с различными зерновыми культурами. Больше сказать нечего....
@@ -53,23 +54,25 @@
         </article>
         <article>
           <figure>
-            <img
+            <img class="card__img"
               src="../img/pineapples-fruit-basket-supermarket.jpg"
               alt="ананнасики"
             />
-            <figcaption>Свежие ананасы</figcaption>
+            <figcaption class="card__title">Свежие ананасы</figcaption>
           </figure>
-          <p>
+          <p class="card__text text">
             Свежие ананасы прямиком.. Из места где растут самые вкусные ананасы.
             Данный сорт выращен с особой любовью и теплом. Конец..
           </p>
         </article>
         <article>
           <figure>
-            <img src="../img/tasty-donuts-with-colorful-sprinkles.jpg" alt="" />
-            <figcaption>Пончики</figcaption>
+            <img class="card__img" src="../img/tasty-donuts-with-colorful-sprinkles.jpg" alt="" />
+            <figcaption class="card__title">Пончики</figcaption>
           </figure>
-          <p>Это пончики которые должен попробовать каждый полицейский.</p>
+          <p class="card__text text">
+            Это пончики которые должен попробовать каждый полицейский.
+          </p>
         </article>
       </section>
     </main>
